@@ -33,7 +33,7 @@ public class MainViewController implements Initializable {
 	public void onMenuItemSellerAction() {
 		System.out.println("onMenuItemSellerAction");
 	}
-	
+
 	@FXML
 	public void onMenuItemDepartmentAction() {
 		loadView("/gui/DepartmentList.fxml", (DepartmentListController controller) -> {
@@ -48,10 +48,10 @@ public class MainViewController implements Initializable {
 	}
 	
 	@Override
-	public void initialize(URL url, ResourceBundle rb) {		
+	public void initialize(URL uri, ResourceBundle rb) {
 	}
 	
-	private synchronized <T>void loadView(String absoluteName, Consumer<T> initializingAction) {
+	private synchronized <T> void loadView(String absoluteName, Consumer<T> initializingAction) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
 			VBox newVBox = loader.load();
