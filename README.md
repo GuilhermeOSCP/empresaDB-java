@@ -15,6 +15,7 @@ EN-US: The project consists of a software whose application is aimed at human re
 PT-BR: Para inicializar o software é necessário ter o MySQL instalado no seu computador. Após instalar o MySQL, verifique o arquivo "db.properties" presente na pasta principal do projeto e altere as configurações de acordo com as configurações presentes no seu MySQL, isto serve para estabelecer a comunicação do software com o banco de dados. 
 <br> Depois de modificar o arquivo "db.properties"  de acordo com suas configurações de conexão com o MySQL, no seu software de administração de banco de dados (Eu utilizo o MySQL Workbench) copie todo o conteúdo do arquivo "database.sql" nas linhas de comando dentro da sua base de dados e execute. Isto serve para inicializar as tabelas e os dados previamentes contidos nas mesmas para o software conseguir consultar e mostrar. 
 <br> Após seguir os passos acima, é só acessar o projeto na sua IDE (Eu utilizo o Eclipse) e executar o software como uma aplicação java que o software irá funcionar normalmente. Não esqueça que para o software funcionar corretamente,  o serviço do MySQL deve estar em execução na sua máquina, se não, o software não conseguirá realizar as suas consultas.
+<br>
 </div>
 
 <div>
