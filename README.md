@@ -7,7 +7,7 @@ PT-BR: O projeto consiste em um software que sua aplicação é destinada a prof
 EN-US: The project consists of a software whose application is aimed at human resources professionals present in a company operating in the retail sector. It is possible to create, delete, edit and view sector data, as well as create, delete, edit and view seller information, such as name, email, date of birth, salary and which sector it is connected to. All the data that the software will present is obtained through connection with the MySQL database. The software is based on Java and MySQL.
 
 <div>
-<img src="https://github.com/GuilhermeOSCP/empresaDB-java/blob/master/abas.png">
+<img src="https://github.com/GuilhermeOSCP/empresaDB-java/blob/master/aba.png">
 </div>
 
 ### Instruções Para Inicialização do Software | Software Startup Instructions:
