@@ -19,7 +19,7 @@ PT-BR: Para inicializar o software é necessário ter o MySQL instalado no seu c
 
 
 <div>
-EN-US: To start the software you must have MySQL installed on your computer. After installing MySQL, check the "db.properties" file present in the project's main folder and change the settings according to the settings present in your MySQL, this serves to establish the software's communication with the database. 
+<br>EN-US: To start the software you must have MySQL installed on your computer. After installing MySQL, check the "db.properties" file present in the project's main folder and change the settings according to the settings present in your MySQL, this serves to establish the software's communication with the database. 
 <br> After modifying the "db.properties" file according to your MySQL connection settings, in your database administration software (I use MySQL Workbench) copy the entire contents of the "database.sql" file into the lines command into your database and run. This serves to initialize the tables and the data previously contained in them for the software to be able to query and display. 
 <br> After following the steps above, just access the project in your IDE (I use Eclipse) and run the software as a java application and the software will work normally. Do not forget that for the software to work correctly, the MySQL service must be running on your machine, otherwise, the software will not be able to perform your queries.
 </div>
