@@ -1,0 +1,7 @@
+1- Acessar o site https://gluonhq.com/products/javafx/
+2- Baixar a versão (type = SDK) compativel com o seu SO
+3- Descompactar o arquivo
+4- Pegar a Pasta descompactada e mover para o diretório onde ficam as libs do seu computador
+
+OBS 1: Não coloquei a lib compactada pois o limite do GitHub para arquivos são de 25MB e mesmo compactado, não consegui subi-lo.
+OBS 2: A versão utilizada no projeto é a 11.0.2.
